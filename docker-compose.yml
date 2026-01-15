@@ -8,8 +8,6 @@ services:
       - "3000:3000"
     depends_on:
       - mongo
-    volumes:
-      - ./backend:/app
     restart: always
 
   mongo:
